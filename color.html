@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="color.js" defer></script>
+    <title>Document</title>
+    <style>
+        #box,#parent{
+            margin:50px;
+            padding:50px;
+            height: 20px;
+            width:20px;
+            border:2px solid black;
+        }
+        #child{
+            height: 16px;
+            width:15px;
+            border: 2px dotted black;
+            background-color: aquamarine;
+        }
+        #btn{
+            padding:2px;
+        }
+    </style>
+</head>
+<body>
+    <div id="box">
+        <button type="submit"id="btn">submit</button>
+    </div>
+      <div id="parent">
+        <div id="child"></div>
+        <!-- <button type="submit"id="btn1">submit</button> -->
+    </div>
+</body>
+</html>
